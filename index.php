@@ -11,7 +11,7 @@
 <body>
     <ul>
         <?php
-        $students = ["Amy", "Stoney", "Chris", "Bruce"];
+        $students = ["Amy", "Stoney", "Chris", "Bruce", "Lisa", "Calvin", "Eddy"];
         foreach ($students as $student) {
             echo "<li>$student</li>";
         }
