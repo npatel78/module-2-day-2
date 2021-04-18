@@ -11,9 +11,12 @@
 <body>
     <ul>
         <?php
+        // declare array of students
         $students = ["Amy", "Stoney", "Chris", "Bruce"];
+        // iterate through array one student at a time
         foreach ($students as $student) {
-            echo "<li>$student</li>";
+            // echo out the student using li tags
+            echo "<li>$student" . " 😀" . "</li>";
         }
         ?>
     </ul>
